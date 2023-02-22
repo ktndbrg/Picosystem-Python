@@ -1,6 +1,11 @@
 import random
 import time
 
+"""
+	This program just flickers with the lights,
+	Testing buttons etc.
+"""
+
 pos_x = 0
 pos_y = 0
 
@@ -15,7 +20,7 @@ def inputs_render():
     text ("hello, world!")
     flip ()
 
-
+# Main loop
 while True:
     led (random.randrange (100), random.randrange (100), random.randrange (100))
     inputs_render ()
